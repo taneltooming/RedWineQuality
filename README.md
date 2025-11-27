@@ -1,2 +1,2 @@
-# WaterQuality
-Project E5: Water Quality: Analyzing how different parameters affect water potability
+# Wine Quality
+Project E5: Wine Quality: Analyzing how different physiochemical inputs affect the quality of the wine.
