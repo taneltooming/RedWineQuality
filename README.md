@@ -1,12 +1,12 @@
 # **Project E5:** Red Wine Quality  
-- # **Authors:**  
+## **Authors:**  
 Sven-Erik Taru, Marten Tiisler, Tanel Tooming
 
-- # **Motivation & Goal:**  
+## **Motivation & Goal:**  
 Wine quality plays a key role in both consumer satisfaction and producer decision-making. Traditional quality assessment requires human experts, which is slow, subjective, and costly. We aim to create a more objective approach using chemical measurements to estimate wine quality. Not only does this make the whole process quicker, but also cheaper. The main goal is to increase the consistency and objectivity of wine quality evaluation with a machine learning model that can predict the quality of wine based on given chemical properties. This can help save money and time.
 The secondary goal is to identify which features have the strongest influence on the quality, as this can help winemakers make the necessary changes.
   
-- # **Contents:**  
+## **Contents:**  
 - **Data**  
 *winequality-red.csv* - Red wine dataset used in our separate notebooks  
 *winequality-white.csv* - White wine dataset used when comparing our models and their results  
@@ -20,5 +20,5 @@ The secondary goal is to identify which features have the strongest influence on
 *Correlation_matrix.ipynb* - A notebook that shows the correlations between all of the features in the dataset.  
 *E5_report.pdf* - The PDF that we submitted as our homework 10 submission.  
 
-- # **Replicating the analysis:**  
+## **Replicating the analysis:**  
 The analysis was conducted in Python 3.10 using Jupyter Notebook. The red and white wine datasets are provided as CSV files: *winequality-red.csv* and *winequality-white.csv*. These files are loaded directly into the analysis notebook using *Pandas*. To replicate the analysis, the user runs the *WineQualityFinal.ipynb* notebook from top to bottom. The notebook contains sections for data preprocessing, *SMOTE* application, model training, hyperparameter tuning, and evaluation.
