@@ -20,5 +20,8 @@ The secondary goal is to identify which features have the strongest influence on
 *Correlation_matrix.ipynb* - A notebook that shows the correlations between all of the features in the dataset.  
 *E5_report.pdf* - The PDF that we submitted as our homework 10 submission.  
 
+## **Explanations:**  
+Jupyter Notebook files include additional explanations in the form of comments and descriptions about the sections, code and parameters used.  
+
 ## **Replicating the analysis:**  
 The analysis was conducted in Python 3.10 using Jupyter Notebook. The red and white wine datasets are provided as CSV files: *winequality-red.csv* and *winequality-white.csv*. These files are loaded directly into the analysis notebook using *Pandas*. To replicate the analysis, the user runs the *WineQualityFinal.ipynb* notebook from top to bottom. The notebook contains sections for data preprocessing, *SMOTE* application, model training, hyperparameter tuning, and evaluation.
